@@ -13,6 +13,10 @@ module.exports = {
         },
         reddit_border: {
           DEFAULT: '#343536',
+        },
+        reddit_text: {
+          DEFAULT: 'rgb(215, 218, 220)',
+          darker: '#818384',
         }
       },
     },
