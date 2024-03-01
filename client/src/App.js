@@ -1,5 +1,6 @@
 import Logo from './logo.png'
 import {SearchIcon} from '@heroicons/react/solid'
+import './style.css'
 
 function App() {
   return (
@@ -8,10 +9,10 @@ function App() {
         <div className='mx-4'>
           <img src={Logo} alt='reddit logo' className='w-8 h-8 '/>
         </div>
-        <from action="" className='bg-gray-800 p-1 flex'>
-          <SearchIcon className='text-gray-300 h-7 w-7'/>
-          <input type='text' className='bg-gray-800 h-6'/>
-        </from>
+        <form action="" className='bg-reddit_dark-brighter px-3 flex rounded-md border border-gray-700'>
+          <SearchIcon className='text-gray-300 h-6 w-6 mt-1'/>
+          <input type='text' className='bg-reddit_dark-brighter text-sm p-1 pl-2 pr-0 block focus:outline-none text-white' placeholder='Search'/>
+        </form>
       </header>
     </div>
   );
